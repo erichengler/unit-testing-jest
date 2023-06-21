@@ -28,6 +28,7 @@ describe('addNumbers function', () => {
 
     });
 
+    // it.only will run only this test and skip the rest
     it('should sum correctly with only one value passed in', () => {
 
         expect(addNumbers(3)).toBe(3);
